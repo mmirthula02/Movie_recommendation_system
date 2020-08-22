@@ -14,11 +14,11 @@ Movie recommendation engine using collabrative filtering.
 
 3. Unique rating distributions bar graphs are plotted.
 
-4.Dimentionality reduction : Rarely rated movies and rarely rated users were filtered to improve the model performance
+4. Dimentionality reduction : Rarely rated movies and rarely rated users were filtered to improve the model performance.
 
-5.Train set and prediction set is created . The prediction set contains user-item pair where ratings for certain movies was missing in train set.
+5. Train set and prediction set is created . The prediction set contains user-item pair where ratings for certain movies was missing in train set.
 
-6.Model is trained 
+6. The model is trained by using surprise package , where a SVD model was created to build a recommendation system .
 
 7. Predict ratings for all user-item pairs that are not in the training set and then to finally Recommend top 3 movies to all users based on predictions.
 
