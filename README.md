@@ -2,6 +2,8 @@
 
 Movie recommendation engine using collabrative filtering.
 
+A recommendation engine for movies is created and top 3 unseen movies are suggested to the users based on ratings given by other users of similar interests.
+
 # Libraries used:
 1. Pandas
 2. Matplotlib
